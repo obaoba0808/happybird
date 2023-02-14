@@ -1,0 +1,20 @@
+@font-face {
+   font-family: 'General_Art';
+   font-display: swap;
+   src: url('General_Art/font.ttf');
+}
+@font-face {
+   font-family: '宅在家麥克筆';
+   font-display: swap;
+   src: url('宅在家麥克筆/font.ttf');
+}
+@font-face {
+   font-family: 'cwTeXYen-zhonly';
+   font-display: swap;
+   src: url('cwTeXYen-zhonly/font.ttf');
+}
+@font-face {
+   font-family: 'JasonHandwriting4';
+   font-display: swap;
+   src: url('JasonHandwriting4/font.ttf');
+}
