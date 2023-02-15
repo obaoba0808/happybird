@@ -1471,8 +1471,8 @@ a {
   color: #767676;
 }
 .cid-tvSToK7abk {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-color: #ffffff;
   overflow: hidden;
   box-sizing: border-box;
@@ -1508,7 +1508,7 @@ a {
   background: transparent !important;
 }
 .cid-tvSToK7abk .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.3 !important;
 }
 .cid-tvSToK7abk .mbr-gallery-title {
   font-size: .9em;
@@ -1529,7 +1529,7 @@ a {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.7;
+  opacity: 0.3;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
