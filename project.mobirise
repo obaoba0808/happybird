@@ -308,7 +308,7 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "cookiesAlert": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "site_lang": "zh-Hant"
   },
