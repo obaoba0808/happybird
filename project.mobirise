@@ -310,7 +310,8 @@
     "cookiesAlert": false,
     "publishChangesOnly": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "site_lang": "zh-Hant"
+    "site_lang": "zh-Hant",
+    "global_footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>"
   },
   "pages": {
     "index.html": {
