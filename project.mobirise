@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "qa.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -311,7 +311,8 @@
     "publishChangesOnly": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "site_lang": "zh-Hant",
-    "global_footer_custom": ""
+    "global_footer_custom": "",
+    "global_header_custom": "<title>半套按摩舒壓｜正妹小莎按摩</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩\">\n<meta name=\"description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養排毒，多間舒壓會館任君選擇 網友推薦第一首選｜正妹小莎按摩\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"半套按摩舒壓｜正妹小莎按摩\" >\n<meta property=\"og:url\" content=\"https://obaoba0808.github.io/sasaspa/\">\n<meta property=\"og:image\" content=\"要顯示的縮圖網址\">\n<meta property=\"og:description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養排毒，多間舒壓會館任君選擇 網友推薦第一首選｜正妹小莎按摩\" >"
   },
   "pages": {
     "index.html": {
