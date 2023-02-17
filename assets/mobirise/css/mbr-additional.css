@@ -19654,6 +19654,11 @@ a {
   padding-bottom: 45px;
   background: linear-gradient(45deg, #490f4c, #f94be8);
 }
+.cid-tw3tTuck8q .mbr-text,
+.cid-tw3tTuck8q .mbr-section-btn {
+  text-align: left;
+  color: #ffffff;
+}
 .cid-tw3qzb8wue {
   padding-top: 45px;
   padding-bottom: 15px;
@@ -20754,7 +20759,7 @@ a {
   padding-right: 1rem;
 }
 .cid-lYdMS072Ep H4 {
-  color: #4a064e;
+  color: #361441;
 }
 .cid-lYdMS072Ep .panel-text {
   color: #490f4c;
