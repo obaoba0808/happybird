@@ -1,16 +1,16 @@
 {
   "settings": {
-    "currentPage": "about.html",
+    "currentPage": "c-nongan.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
       "styling": {
         "primaryColor": "#390142",
         "secondaryColor": "#3b054d",
-        "successColor": "#ff007c",
-        "infoColor": "#c200ff",
-        "warningColor": "#ffffff",
-        "dangerColor": "#300339",
+        "successColor": "#aa00f7",
+        "infoColor": "#ffffff",
+        "warningColor": "#ff007c",
+        "dangerColor": "#bbbbbb",
         "mainFont": "Jost",
         "display1Font": "General_Art",
         "display1Size": "2.5",
@@ -23,7 +23,7 @@
         "display4Font": "JasonHandwriting4",
         "display4Size": "1.0",
         "isRoundedButtons": true,
-        "isGhostButtonBorder": true,
+        "isGhostButtonBorder": false,
         "underlinedLinks": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
@@ -32,13 +32,13 @@
       "nameSelectPreset": "agency",
       "presetSourceTheme": "mobirise5",
       "additionalSetColors": [
-        "#fa56a6",
-        "#f5469b",
-        "#e5069b",
-        "#e900cf",
-        "#c100e0",
+        "#aa00f7",
         "#390142",
-        "#c900e9"
+        "#65036b",
+        "#3b054d",
+        "#ff007c",
+        "#4a044e",
+        "#45505b"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -295,7 +295,7 @@
     "versionPublish": "5.7.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/1-removebg-preview-128x75_1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/-removebg-preview-128x105.png",
     "mbrsiteDomain": "sasaspa",
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -13984,10 +13984,12 @@
           },
           "_name": "gallery2",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#353535\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
           "_anchor": "gallery2-6j",
           "_isUserblock": true,
           "_cid": "tvWDiEZI9S",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -13999,7 +14001,7 @@
           "_params": {
             "text_all": "&nbsp; 全部&nbsp;",
             "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-success",
+            "gallery__filtersBtnStyle": "btn-warning",
             "gallery": [
               {
                 "tags": "林森館",
@@ -14886,6 +14888,8 @@
           "_anchor": "gallery2-9z",
           "_isUserblock": true,
           "_cid": "twc8kWQmp5",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -14897,7 +14901,7 @@
           "_params": {
             "text_all": "&nbsp; 全部&nbsp;",
             "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-success",
+            "gallery__filtersBtnStyle": "btn-warning",
             "gallery": [
               {
                 "tags": "林森館",
