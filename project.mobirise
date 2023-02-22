@@ -306,7 +306,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "site_lang": "zh-Hant",
     "global_footer_custom": "",
-    "global_header_custom": "<title>半套按摩舒壓｜正妹小莎按摩</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩,按摩,淋巴排毒,攝護腺保養\">\n<meta name=\"description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養淋巴排毒，多間舒壓會館任君選擇 網友推薦第一首選｜正妹小莎按摩\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"半套按摩舒壓｜正妹小莎按摩\" >\n<meta property=\"og:url\" content=\"https://obaoba0808.github.io/sasaspa/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養淋巴排毒，多間舒壓會館任君選擇 網友推薦第一首選｜正妹小莎按摩\" >",
+    "global_header_custom": "<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩,按摩,淋巴排毒,攝護腺保養,舒壓會館\">",
     "gdpr": false
   },
   "pages": {
@@ -315,7 +315,7 @@
         "main": true,
         "title": "半套按摩紓壓｜ 正妹小莎按摩",
         "meta_descr": "半套按摩舒壓會館於台北按摩專屬男性保養排毒，網友推薦第一首選 多間舒壓會館任君選擇 ｜正妹小莎按摩",
-        "header_custom": "<title>半套按摩紓壓｜ 正妹小莎按摩</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩,按摩,淋巴排毒,攝護腺保養,舒壓會館\">\n<meta name=\"description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養排毒，網友推薦第一首選 多間舒壓會館任君選擇 ｜正妹小莎按摩\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"男性淋巴排毒按摩舒壓常見Q&A? | 2023\" >\n<meta property=\"og:url\" content=\"https://sasaspa.site/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養排毒，網友推薦第一首選 多間舒壓會館任君選擇 ｜正妹小莎按摩\" >",
+        "header_custom": "",
         "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
         "html_before": "",
         "socialSharingUrl": "",
@@ -2487,7 +2487,9 @@
         "title": "舒壓按摩|林森館環境介紹",
         "order": "19",
         "meta_descr": "林森舒壓按摩館位於林森北路的中心點，另外交通方便 ，鄰近中山國小捷運站2號出口，裝潢相當氣派｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/331388476-650376686847731-2918615264963841463-n-554x392.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/331388476-650376686847731-2918615264963841463-n-554x392.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -3384,7 +3386,9 @@
         "meta_descr": "半套按摩舒壓徵才資訊-有心想要從事此行業挑戰高薪的美容師歡迎來作伴",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/recruitment-meta.webp",
-        "header_custom": "<title>徵才資訊｜正妹小莎按摩</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,徵才資訊,按摩,淋巴排毒,攝護腺保養\">\n<meta name=\"description\" content=\"半套按摩舒壓徵才資訊-有心想要從事此行業挑戰高薪的美容師歡迎來作伴｜正妹小莎按摩\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"徵才資訊｜正妹小莎按摩\" >\n<meta property=\"og:url\" content=\"https://sasaspa.site/recruitment.html/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓徵才資訊-有心想要從事此行業挑戰高薪的美容師歡迎來作伴｜正妹小莎按摩\" >"
+        "header_custom": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -4141,7 +4145,8 @@
         "meta_descr": "半套按摩舒壓｜ 正妹小莎按摩聯絡資訊",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/8b19e6ee-156b-4151-8fd0-fdb0f376cd7a.webp",
-        "header_custom": "<title>聯絡我們｜正妹小莎按摩</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,聯絡我們,按摩,淋巴排毒,攝護腺保養\">\n<meta name=\"description\" content=\"半套按摩舒壓｜ 正妹小莎按摩聯絡資訊\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"徵才資訊｜正妹小莎按摩\" >\n<meta property=\"og:url\" content=\"https://sasaspa.site/about.html/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓｜ 正妹小莎按摩聯絡資訊\" >"
+        "header_custom": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>"
       },
       "components": [
         {
@@ -4323,11 +4328,11 @@
             },
             ".mbr-section-terms": {
               "text-align": "center",
-              "color": "#000000",
+              "color": "#ffffff",
               "margin-bottom": "0px"
             },
             ".mbr-section-labels": {
-              "color": "#232323",
+              "color": "#ffffff",
               "padding": "0",
               "margin-bottom": ".357em",
               "text-align": "left"
@@ -4411,7 +4416,7 @@
               "color": "#ffffff"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"witsec-mailform mbr-section\" plugins=\"witsec-mailform\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\">\n    <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"3\" max=\"7\" step=\"1\" value=\"3\">\n    \n    <header>Title/Subtitle</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        \n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\" checked>\n    <input type=\"checkbox\" title=\"Show GDPR\" name=\"showGDPR\">\n    <input type=\"checkbox\" title=\"Show reCAPTCHA Terms\" name=\"showTerms\">\n    <input type=\"checkbox\" title=\"Show Labels\" name=\"showLabels\">\n    <input type=\"checkbox\" title=\"Show Upload\" name=\"showUpload\">\n\n    <header>Placeholders</header>\n    <header>Global settings can be changed in the <a href=\"#\" onclick=\"$('.projects-show').click()\">Site Settings</a> of your website</header>\n    <input type=\"text\" title=\"Name\" name=\"phName\" value=\"姓名\">\n    <input type=\"text\" title=\"Email\" name=\"phEmail\" value=\"信箱\">\n    <input type=\"text\" title=\"Phone\" name=\"phPhone\" value=\"電話\" condition=\"showPhone\">\n    <input type=\"text\" title=\"Message\" name=\"phMessage\" value=\"留言\">\n    \n    <header>Style</header>\n    <input type=\"color\" title=\"Field BG Color\" name=\"bginput\" value=\"#dfdfdf\" selected>\n    <input type=\"checkbox\" title=\"Field Border\" name=\"showFieldBorder\" checked>\n    <input type=\"color\" title=\"Field Border Color\" name=\"floatingWindowFbColor\" value=\"#c21898\" condition=\"showFieldBorder\">\n    <input type=\"range\" inline title=\"Field Border Thickness\" name=\"floatingFormBorderThickness\" min=\"1\" max=\"5\" step=\"0.5\" value=\"3\" condition=\"showFieldBorder\">\n    <input type=\"color\" title=\"Field Border Hover Color\" name=\"fieldBorderHoverColor\" value=\"#000000\" condition=\"showFieldBorder\">\n    <input type=\"range\" inline title=\"Field Border Hover Thickness\" name=\"floatingFormBorderHoverThickness\" min=\"1\" max=\"5\" step=\"0.5\" value=\"3\" condition=\"showFieldBorder\">\n    <select title=\"Align Submit\" name=\"alignSubmit\">\n      <option value>Left</option>\n      <option value=\"align-center\">Center</option>\n      <option value=\"align-right\" selected>Right</option>\n    </select>\n    \n    <header condition=\"showUpload\">Upload Options</header>\n    <input type=\"text\" title=\"File Extension Filter\" name=\"acceptedFileTypes\" value=\".gif, .jpg, .jpeg, .png, .pdf\" condition=\"showUpload\">\n    <input type=\"checkbox\" title=\"Multiple Files\" name=\"uploadMultiple\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Padding Top\" name=\"uploadBtnPaddingY\" min=\"0\" max=\"50\" step=\"0.5\" value=\"13\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Padding Left\" name=\"uploadBtnPaddingX\" min=\"0\" max=\"50\" step=\"0.5\" value=\"12.5\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Background Color\" name=\"uploadBtnBgColor\" value=\"#cccccc\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Text Color\" name=\"uploadBtnTxtColor\" value=\"#232323\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Border Color\" name=\"uploadBtnBdrColor\" value=\"#232323\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Border Width\" name=\"uploadBtnBdrWidth\" min=\"0\" max=\"3\" step=\"0.25\" value=\"1\" condition=\"showUpload\">\n\n    <header>Form Options</header>\n    <input type=\"text\" title=\"Alternative Recipient (use Address Book ID as defined in Site Settings)\" name=\"recipientID\" value>\n    <input type=\"text\" title=\"Subject\" name=\"txtSubject\" value=\"A message from your website.\">\n    <select title=\"Autorespond\" name=\"autorespond\">\n      <option value=\"0\" selected>Off</option>\n      <option value=\"1\">On</option>\n      <option value=\"2\">User Decision</option>\n    </select>\n    <select title=\"On Success\" name=\"onsuccess\">\n      <option value=\"0\" selected>Stay</option>\n      <option value=\"1\">Redirect</option>\n    </select>\n    <input type=\"checkbox\" title=\"Confirmation Below Form\" name=\"confirmationBelow\" checked>\n    <header condition=\"onsuccess == 1\">RedirectURL</header>\n    <input type=\"text\" title=\"Redirect to\" name=\"redirectURL\" value=\"thanks.html\" condition=\"onsuccess == 1\">\n\n    <header>Mini Templates (optional)</header>\n    <textarea name=\"mtxt\" title=\"Normal Mail\">ilohas6868@gmail.com</textarea>\n    <textarea name=\"rtxt\" title=\"Response Mail\" condition=\"autorespond > 0\"></textarea>\n\n    <header>Alerts</header>\n    <input type=\"checkbox\" title=\"Show Alerts in Mobirise\" name=\"showAlerts\">\n    <input type=\"color\" title=\"Success BG Color\" name=\"bgColorSuccess\" value=\"#70c770\" condition=\"onsuccess == 0\">\n    <input type=\"color\" title=\"Error BG Color\" name=\"bgColorError\" value=\"#ff4a52\">\n\n    <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#2f0d31\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#0c010d\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"169\" step=\"1\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <!-- Title Subtitle -->\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center align-items-center\">\n    <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>優惠禮金200領取</b></h3>\n    <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">By clicking on the <span class=\"bi-gear mbr-iconfont\" style=\"font-size: 25px; color: rgb(64, 155, 199);\"></span> you can modify the various parameters.<br>This block works with <a href=\"https://witsec.nl/extension-mailform.html\" class=\"text-primary\" target=\"_blank\">witsec-mailform 12.X</a></h4>\n    </div>\n    </div>\n    </div>\n  <!-- Image Left -->    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center align-items-center\">\n    <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n    <img src=\"@PROJECT_PATH@/assets/images/329266037-594309345362466-7380338222214943362-n-removebg-preview-500x500.webp\" alt=\"按摩排毒\">\n    </div>\n<!-- Contact Form Right -->\n    <div class=\"col-lg-4 offset-lg-0\">\n    <form class=\"mbr-form\">\n    <input type=\"hidden\" name=\"recipient\" value=\"{{recipientID}}\" mbr-if=\"recipientID\">\n    <input type=\"hidden\" name=\"subject\" value=\"{{txtSubject}}\">\n    <input type=\"hidden\" name=\"autorespond\" value=\"1\" mbr-if=\"autorespond=='1'\">\n    <input type=\"hidden\" name=\"redirectURL\" value=\"{{redirectURL}}\" mbr-if=\"onsuccess=='1'\">\n    <input type=\"hidden\" name=\"mtxt\" value=\"{{mtxt}}\" mbr-if=\"mtxt\">\n    <input type=\"hidden\" name=\"rtxt\" value=\"{{rtxt}}\" mbr-if=\"rtxt &amp;&amp; autorespond > 0\">\n    <div class=\"rowflexrev\" mbr-class=\"{ 'flex-column': !confirmationBelow, 'flex-column-reverse': confirmationBelow }\">\n    <div class=\"row\">\n    <div class=\"col-md-12 form-group mb-3 ws-form-alerts\">\n    <div hidden=\"hidden\" mbr-text class=\"alert alert-success col-12 mbr-alert-success mbr-fonts-style\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-alert-success\" mbr-if=\"onsuccess=='0'\">Thanks for filling out the form!</div>\n    <div hidden=\"hidden\" mbr-text class=\"alert alert-danger col-12 mbr-alert-danger mbr-fonts-style\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-alert-danger\">An error occured. Please try again.</div>\n    </div>\n    </div>\n    <div class=\"row\">\n    <div class=\"col-md-12 form-group mb-3\" mbr-class=\"{'col-md-6': !showPhone}\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Name</p>\n    <input id=\"fieldcolor\" type=\"text\" name=\"name\" placeholder=\"{{phName}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n    </div>\n    <div class=\"col-md-12 form-group mb-3\" mbr-class=\"{'col-md-6': !showPhone}\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Email</p>\n    <input id=\"fieldcolor\" type=\"email\" name=\"email\" placeholder=\"{{phEmail}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n    </div>\n    <div mbr-if=\"showPhone\" class=\"col-md-12 form-group mb-3\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Phone</p>\n    <input id=\"fieldcolor\" type=\"tel\" name=\"phone\" placeholder=\"{{phPhone}}\" mbr-theme-style=\"display-7\" class=\"form-control\">\n    </div>\n    <div class=\"col-md-12 form-group mb-3\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Message</p>\n    <textarea id=\"fieldcolor\" name=\"message\" placeholder=\"{{phMessage}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\"></textarea>\n    </div>\n    <div class=\"col-md-12 form-group mb-3 mb-3\" mbr-if=\"showUpload\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">File</p>\n    <input class=\"form-control uploadBtn\" type=\"file\" name=\"file\" accept=\"{{acceptedFileTypes}}\" mbr-if=\"!uploadMultiple\">\n    <input class=\"form-control uploadBtn\" type=\"file\" name=\"file[]\" accept=\"{{acceptedFileTypes}}\" mbr-if=\"uploadMultiple\" multiple>\n    </div>\n    <div mbr-if=\"autorespond=='2' || showGDPR\" class=\"col-md-12 justify-content-center form-group mb-3\">\n    <p class=\"mbr-section-autorespond mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-autorespond\" mbr-if=\"autorespond=='2'\">\n    <input type=\"checkbox\" name=\"autorespond\" value=\"1\">\n    <label class=\"mbr-section-autorespond mbr-fonts-style\">Send me a copy</label>\n    </p>\n    <p class=\"mbr-section-gdpr mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-gdpr\" mbr-if=\"showGDPR\">\n    <input type=\"checkbox\" name=\"GDPR\" value=\"1\" required>\n    <label class=\"mbr-section-gdpr mbr-fonts-style\">By continuing you agree to our <a href=\"terms.html\" class=\"text-white\">Terms of Service</a> and <a href=\"policy.html\" class=\"text-white\">Privacy Policy</a>.</label></p>\n    </div>\n    <div mbr-if=\"showTerms\" class=\"col-md-12 justify-content-center form-group mb-3\">\n    <p class=\"mbr-section-terms mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-terms\">This form uses Google's reCAPTCHA. By continuing you agree to the <a href=\"https://policies.google.com/privacy\" target=\"_blank\" class=\"text-primary\">Privacy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\">Terms</a>.\n    </p>\n    </div>\n    <div class=\"g-recaptcha col-md-12 form-group mb-3\" mbr-class=\"{'hidden': !isPublish}\"></div>\n    <div class=\"col-md-12 input-group-btn {{alignSubmit}}\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-form btn-success\" data-app-placeholder=\"Type Text\">立即領取</a></div>\n    </div>\n    </div>\n    </form>\n    </div>\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"witsec-mailform mbr-section\" plugins=\"witsec-mailform\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\">\n    <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"3\" max=\"7\" step=\"1\" value=\"3\">\n    \n    <header>Title/Subtitle</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        \n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\" checked>\n    <input type=\"checkbox\" title=\"Show GDPR\" name=\"showGDPR\">\n    <input type=\"checkbox\" title=\"Show reCAPTCHA Terms\" name=\"showTerms\">\n    <input type=\"checkbox\" title=\"Show Labels\" name=\"showLabels\">\n    <input type=\"checkbox\" title=\"Show Upload\" name=\"showUpload\">\n\n    <header>Placeholders</header>\n    <header>Global settings can be changed in the <a href=\"#\" onclick=\"$('.projects-show').click()\">Site Settings</a> of your website</header>\n    <input type=\"text\" title=\"Name\" name=\"phName\" value=\"姓名\">\n    <input type=\"text\" title=\"Email\" name=\"phEmail\" value=\"信箱\">\n    <input type=\"text\" title=\"Phone\" name=\"phPhone\" value=\"電話\" condition=\"showPhone\">\n    <input type=\"text\" title=\"Message\" name=\"phMessage\" value=\"留言\">\n    \n    <header>Style</header>\n    <input type=\"color\" title=\"Field BG Color\" name=\"bginput\" value=\"#dfdfdf\" selected>\n    <input type=\"checkbox\" title=\"Field Border\" name=\"showFieldBorder\" checked>\n    <input type=\"color\" title=\"Field Border Color\" name=\"floatingWindowFbColor\" value=\"#c21898\" condition=\"showFieldBorder\">\n    <input type=\"range\" inline title=\"Field Border Thickness\" name=\"floatingFormBorderThickness\" min=\"1\" max=\"5\" step=\"0.5\" value=\"3\" condition=\"showFieldBorder\">\n    <input type=\"color\" title=\"Field Border Hover Color\" name=\"fieldBorderHoverColor\" value=\"#000000\" condition=\"showFieldBorder\">\n    <input type=\"range\" inline title=\"Field Border Hover Thickness\" name=\"floatingFormBorderHoverThickness\" min=\"1\" max=\"5\" step=\"0.5\" value=\"3\" condition=\"showFieldBorder\">\n    <select title=\"Align Submit\" name=\"alignSubmit\">\n      <option value>Left</option>\n      <option value=\"align-center\">Center</option>\n      <option value=\"align-right\" selected>Right</option>\n    </select>\n    \n    <header condition=\"showUpload\">Upload Options</header>\n    <input type=\"text\" title=\"File Extension Filter\" name=\"acceptedFileTypes\" value=\".gif, .jpg, .jpeg, .png, .pdf\" condition=\"showUpload\">\n    <input type=\"checkbox\" title=\"Multiple Files\" name=\"uploadMultiple\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Padding Top\" name=\"uploadBtnPaddingY\" min=\"0\" max=\"50\" step=\"0.5\" value=\"13\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Padding Left\" name=\"uploadBtnPaddingX\" min=\"0\" max=\"50\" step=\"0.5\" value=\"12.5\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Background Color\" name=\"uploadBtnBgColor\" value=\"#cccccc\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Text Color\" name=\"uploadBtnTxtColor\" value=\"#232323\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Border Color\" name=\"uploadBtnBdrColor\" value=\"#232323\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Border Width\" name=\"uploadBtnBdrWidth\" min=\"0\" max=\"3\" step=\"0.25\" value=\"1\" condition=\"showUpload\">\n\n    <header>Form Options</header>\n    <input type=\"text\" title=\"Alternative Recipient (use Address Book ID as defined in Site Settings)\" name=\"recipientID\" value>\n    <input type=\"text\" title=\"Subject\" name=\"txtSubject\" value=\"A message from your website.\">\n    <select title=\"Autorespond\" name=\"autorespond\">\n      <option value=\"0\">Off</option>\n      <option value=\"1\" selected>On</option>\n      <option value=\"2\">User Decision</option>\n    </select>\n    <select title=\"On Success\" name=\"onsuccess\">\n      <option value=\"0\" selected>Stay</option>\n      <option value=\"1\">Redirect</option>\n    </select>\n    <input type=\"checkbox\" title=\"Confirmation Below Form\" name=\"confirmationBelow\" checked>\n    <header condition=\"onsuccess == 1\">RedirectURL</header>\n    <input type=\"text\" title=\"Redirect to\" name=\"redirectURL\" value=\"thanks.html\" condition=\"onsuccess == 1\">\n\n    <header>Mini Templates (optional)</header>\n    <textarea name=\"mtxt\" title=\"Normal Mail\">ilohas6868@gmail.com</textarea>\n    <textarea name=\"rtxt\" title=\"Response Mail\" condition=\"autorespond > 0\"></textarea>\n\n    <header>Alerts</header>\n    <input type=\"checkbox\" title=\"Show Alerts in Mobirise\" name=\"showAlerts\">\n    <input type=\"color\" title=\"Success BG Color\" name=\"bgColorSuccess\" value=\"#70c770\" condition=\"onsuccess == 0\">\n    <input type=\"color\" title=\"Error BG Color\" name=\"bgColorError\" value=\"#ff4a52\">\n\n    <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#2f0d31\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#0c010d\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"178\" step=\"1\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <!-- Title Subtitle -->\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center align-items-center\">\n    <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>優惠禮金200領取</b></h3>\n    <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">By clicking on the <span class=\"bi-gear mbr-iconfont\" style=\"font-size: 25px; color: rgb(64, 155, 199);\"></span> you can modify the various parameters.<br>This block works with <a href=\"https://witsec.nl/extension-mailform.html\" class=\"text-primary\" target=\"_blank\">witsec-mailform 12.X</a></h4>\n    </div>\n    </div>\n    </div>\n  <!-- Image Left -->    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center align-items-center\">\n    <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n    <img src=\"@PROJECT_PATH@/assets/images/329266037-594309345362466-7380338222214943362-n-removebg-preview-500x500.webp\" alt=\"按摩排毒\">\n    </div>\n<!-- Contact Form Right -->\n    <div class=\"col-lg-4 offset-lg-0\">\n    <form class=\"mbr-form\">\n    <input type=\"hidden\" name=\"recipient\" value=\"{{recipientID}}\" mbr-if=\"recipientID\">\n    <input type=\"hidden\" name=\"subject\" value=\"{{txtSubject}}\">\n    <input type=\"hidden\" name=\"autorespond\" value=\"1\" mbr-if=\"autorespond=='1'\">\n    <input type=\"hidden\" name=\"redirectURL\" value=\"{{redirectURL}}\" mbr-if=\"onsuccess=='1'\">\n    <input type=\"hidden\" name=\"mtxt\" value=\"{{mtxt}}\" mbr-if=\"mtxt\">\n    <input type=\"hidden\" name=\"rtxt\" value=\"{{rtxt}}\" mbr-if=\"rtxt &amp;&amp; autorespond > 0\">\n    <div class=\"rowflexrev\" mbr-class=\"{ 'flex-column': !confirmationBelow, 'flex-column-reverse': confirmationBelow }\">\n    <div class=\"row\">\n    <div class=\"col-md-12 form-group mb-3 ws-form-alerts\">\n    <div hidden=\"hidden\" mbr-text class=\"alert alert-success col-12 mbr-alert-success mbr-fonts-style\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-alert-success\" mbr-if=\"onsuccess=='0'\">Thanks for filling out the form!</div>\n    <div hidden=\"hidden\" mbr-text class=\"alert alert-danger col-12 mbr-alert-danger mbr-fonts-style\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-alert-danger\">An error occured. Please try again.</div>\n    </div>\n    </div>\n    <div class=\"row\">\n    <div class=\"col-md-12 form-group mb-3\" mbr-class=\"{'col-md-6': !showPhone}\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Name</p>\n    <input id=\"fieldcolor\" type=\"text\" name=\"name\" placeholder=\"{{phName}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n    </div>\n    <div class=\"col-md-12 form-group mb-3\" mbr-class=\"{'col-md-6': !showPhone}\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Email</p>\n    <input id=\"fieldcolor\" type=\"email\" name=\"email\" placeholder=\"{{phEmail}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n    </div>\n    <div mbr-if=\"showPhone\" class=\"col-md-12 form-group mb-3\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Phone</p>\n    <input id=\"fieldcolor\" type=\"tel\" name=\"phone\" placeholder=\"{{phPhone}}\" mbr-theme-style=\"display-7\" class=\"form-control\">\n    </div>\n    <div class=\"col-md-12 form-group mb-3\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Message</p>\n    <textarea id=\"fieldcolor\" name=\"message\" placeholder=\"{{phMessage}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\"></textarea>\n    </div>\n    <div class=\"col-md-12 form-group mb-3 mb-3\" mbr-if=\"showUpload\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">File</p>\n    <input class=\"form-control uploadBtn\" type=\"file\" name=\"file\" accept=\"{{acceptedFileTypes}}\" mbr-if=\"!uploadMultiple\">\n    <input class=\"form-control uploadBtn\" type=\"file\" name=\"file[]\" accept=\"{{acceptedFileTypes}}\" mbr-if=\"uploadMultiple\" multiple>\n    </div>\n    <div mbr-if=\"autorespond=='2' || showGDPR\" class=\"col-md-12 justify-content-center form-group mb-3\">\n    <p class=\"mbr-section-autorespond mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-autorespond\" mbr-if=\"autorespond=='2'\">\n    <input type=\"checkbox\" name=\"autorespond\" value=\"1\">\n    <label class=\"mbr-section-autorespond mbr-fonts-style\">Send me a copy</label>\n    </p>\n    <p class=\"mbr-section-gdpr mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-gdpr\" mbr-if=\"showGDPR\">\n    <input type=\"checkbox\" name=\"GDPR\" value=\"1\" required>\n    <label class=\"mbr-section-gdpr mbr-fonts-style\">By continuing you agree to our <a href=\"terms.html\" class=\"text-white\">Terms of Service</a> and <a href=\"policy.html\" class=\"text-white\">Privacy Policy</a>.</label></p>\n    </div>\n    <div mbr-if=\"showTerms\" class=\"col-md-12 justify-content-center form-group mb-3\">\n    <p class=\"mbr-section-terms mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-terms\">This form uses Google's reCAPTCHA. By continuing you agree to the <a href=\"https://policies.google.com/privacy\" target=\"_blank\" class=\"text-primary\">Privacy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\">Terms</a>.\n    </p>\n    </div>\n    <div class=\"g-recaptcha col-md-12 form-group mb-3\" mbr-class=\"{'hidden': !isPublish}\"></div>\n    <div class=\"col-md-12 input-group-btn {{alignSubmit}}\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-form btn-success\" data-app-placeholder=\"Type Text\">立即領取</a></div>\n    </div>\n    </div>\n    </form>\n    </div>\n    </div>\n  </div>\n</section>",
           "_anchor": "design-block-ad",
           "_isUserblock": true,
           "_cid": "twvOsQFFu4",
@@ -5022,7 +5027,9 @@
         "title": "舒壓按摩|雙城館環境介紹",
         "order": "21",
         "meta_descr": "雙城舒壓按摩館 麻雀雖小五臟俱全！\n妹妹素質都還不錯喔！附近就是晴光商場，相當方便｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/331085758-2203500626516508-6195780803749507296-n-554x392.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/331085758-2203500626516508-6195780803749507296-n-554x392.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -5919,7 +5926,9 @@
         "order": "23",
         "meta_descr": "長安舒壓按摩館裝潢簡約，不同流俗，簡單卻不失品味美容師平均素質中等，注重服務及氣氛！適合愛玩、敢玩，喜歡High到翻氛圍的小哥哥們～｜ 正妹小莎按摩",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/changan-meta.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/changan-meta.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -6815,7 +6824,9 @@
         "title": "舒壓按摩|南京館環境介紹",
         "order": "24",
         "meta_descr": "南京舒壓按摩館 交通非常便利附近許多熱炒及燒烤林立長安東路靠近八條通地理位置比較中間｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/331558932_499090495763702_9076690768145617512_n-600x425.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/331558932_499090495763702_9076690768145617512_n-600x425.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -7711,7 +7722,9 @@
         "title": "舒壓按摩|紐約館環境介紹",
         "order": "25",
         "meta_descr": "紐約舒壓按摩館 美容師頗多的店家周圍四通八達十分便利｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/331291409-574356684605112-4704209350989512943-n-554x392.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/331291409-574356684605112-4704209350989512943-n-554x392.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -8608,7 +8621,9 @@
         "order": "26",
         "meta_descr": "大都會舒壓按摩館新進許多美容師，都是台灣妹妹\n平均年齡１８－２８歲，整體素質平均起來相當的高，通常不太會出現打槍的情況，歡迎各位客人到現場選妃｜ 正妹小莎按摩",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/daan-meta.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/daan-meta.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -9504,7 +9519,9 @@
         "title": "舒壓按摩|民權館環境介紹",
         "order": "27",
         "meta_descr": "民權舒壓按摩館大同區台北橋下\n新北市三重或板橋的客人來這邊相當方便\n民權店內寬敞，包廂超級大｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/331422855_5868560769878926_4895230280319465222_n-600x425.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/331422855_5868560769878926_4895230280319465222_n-600x425.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -10400,7 +10417,9 @@
         "title": "舒壓按摩|錦州館環境介紹",
         "order": "28",
         "meta_descr": "錦州舒壓按摩館 裝潢非常新，11間包廂，非常乾淨明亮，店內沒有菸味，都有獨立衛浴｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/331414731-1381584085923135-6449506605281545923-n-554x392.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/331414731-1381584085923135-6449506605281545923-n-554x392.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -11296,7 +11315,9 @@
         "title": "舒壓按摩|長春館環境介紹",
         "order": "29",
         "meta_descr": "長春舒壓按摩館 全新裝潢過，木質日式簡約風，小姐基本素質還不錯 尺度是還不錯有些妹妹都有送福利～可以來現場挑挑看｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/changchun-meta.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/changchun-meta.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -12194,7 +12215,9 @@
         "meta_descr": "加姿舒壓按摩館位於民權東路二段，最近的捷運站為中山國小4號出口，交通很便利｜ 正妹小莎按摩",
         "header_custom": "",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/gazinongan-meta.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/gazinongan-meta.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -13090,7 +13113,9 @@
         "title": "舒壓按摩|農安館環境介紹",
         "order": "30",
         "meta_descr": "農安舒壓按摩館位於農安街，近晴光商圈/雙城街夜市，最近的捷運站為中山國小站｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/nongan-meta.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/nongan-meta.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -13986,7 +14011,9 @@
         "title": "按摩芳療師 | 林森館班表",
         "order": "7",
         "meta_descr": "按摩芳療師 | 林森館班表",
-        "header_custom": ""
+        "header_custom": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -14886,7 +14913,9 @@
       "settings": {
         "title": "按摩芳療師 | 農安館班表",
         "order": "8",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -15786,7 +15815,9 @@
       "settings": {
         "title": "按摩芳療師 | 雙城館班表",
         "order": "9",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -16686,7 +16717,9 @@
       "settings": {
         "title": "按摩芳療師 | 長安館班表",
         "order": "11",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -17586,7 +17619,9 @@
       "settings": {
         "title": "按摩芳療師 | 南京館班表",
         "order": "12",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -18486,7 +18521,9 @@
       "settings": {
         "title": "按摩芳療師 | 紐約館班表",
         "order": "13",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -19386,7 +19423,9 @@
       "settings": {
         "title": "按摩芳療師 | 大都會班表",
         "order": "18",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -20286,7 +20325,9 @@
       "settings": {
         "title": "按摩芳療師 | 民權館班表",
         "order": "14",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -21186,7 +21227,9 @@
       "settings": {
         "title": "按摩芳療師 | 錦州館班表",
         "order": "15",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -22086,7 +22129,9 @@
       "settings": {
         "title": "按摩芳療師 | 長春館班表",
         "order": "16",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -22986,7 +23031,9 @@
       "settings": {
         "title": "按摩芳療師 | 加姿館班表",
         "order": "17",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -23889,7 +23936,9 @@
         "meta_descr": "半套按摩舒壓|老司機進階攻略，教大家如何謀取更好的服務三分鐘讓你秒懂",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/raiders-meta.webp",
-        "header_custom": "<title>老司機進階攻略，教大家如何謀取更好的服務 | 2023</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩,按摩,淋巴排毒,攝護腺保養,舒壓會館\">\n<meta name=\"description\" content=\"半套按摩舒壓|老司機進階攻略，教大家如何謀取更好的服務三分鐘讓你秒懂｜正妹小莎按摩\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"半套是什麼？排毒是什麼？半套文化重點 | 2023\" >\n<meta property=\"og:url\" content=\"https://sasaspa.site/raiders.html/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓|老司機進階攻略，教大家如何謀取更好的服務三分鐘讓你秒懂\" >"
+        "header_custom": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -24591,7 +24640,9 @@
         "meta_descr": "半套按摩舒壓是什麼？分享六大半套文化重點三分鐘讓你秒懂解除你心中疑惑",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/half-set-meta.webp",
-        "header_custom": "<title>半套是什麼？排毒是什麼？半套文化重點 | 2023</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩,按摩,淋巴排毒,攝護腺保養,舒壓會館\">\n<meta name=\"description\" content=\"半套按摩舒壓是什麼？分享六大半套文化重點三分鐘讓你秒懂解除你心中疑惑｜正妹小莎按摩\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"半套是什麼？排毒是什麼？半套文化重點 | 2023\" >\n<meta property=\"og:url\" content=\"https://sasaspa.site/half-set.html/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓會館於台北按摩專屬男性保養淋巴排毒，多間舒壓會館任君選擇 網友推薦第一首選｜正妹小莎按摩\" >"
+        "header_custom": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -25292,8 +25343,9 @@
         "meta_descr": "半套按摩舒壓常見Q&A?男性淋巴排毒三分鐘讓你秒懂 解除你心中疑惑",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/qa-meta.webp",
-        "header_custom": "<title>男性淋巴排毒按摩舒壓常見Q&A? | 2023</title>\n<meta name=\"keywords\" content=\"半套按摩,排毒,舒壓按摩,台北按摩,按摩,淋巴排毒,攝護腺保養,舒壓會館\">\n<meta name=\"description\" content=\"半半套按摩舒壓常見Q&A?男性淋巴排毒三分鐘讓你秒懂 解除你心中疑惑\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta name=\"rating\" content=\"general\">\n<meta property=\"og:title\" content=\"男性淋巴排毒按摩舒壓常見Q&A? | 2023\" >\n<meta property=\"og:url\" content=\"https://sasaspa.site/qa.html/\">\n<meta property=\"og:description\" content=\"半套按摩舒壓常見Q&A?男性淋巴排毒三分鐘讓你秒懂 解除你心中疑惑\" >",
-        "footer_custom": ""
+        "header_custom": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -26029,8 +26081,10 @@
         "order": "1",
         "meta_descr": "半套按摩舒壓最新資訊大小事報給你知｜正妹小莎按摩",
         "socialSharingUrl": "",
-        "footer_custom": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/news-meta.webp"
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "meta_image": "@PROJECT_PATH@/assets/images/news-meta.webp",
+        "header_custom": "",
+        "html_before": ""
       },
       "components": [
         {
@@ -26806,7 +26860,9 @@
       "settings": {
         "title": "按摩芳療師 | 晶華館班表",
         "order": "10",
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
@@ -27707,7 +27763,9 @@
         "title": "舒壓按摩|晶華館環境介紹",
         "order": "22",
         "meta_descr": "晶華舒壓按摩館位於欣欣大眾，晶華商圈，附近咖啡廳，小吃店餐廳林立四通八達，交通方便，靠近捷運中山站，中山國小站每間包廂都附有液晶電視以及衛浴 ，大概17間包廂｜ 正妹小莎按摩",
-        "meta_image": "@PROJECT_PATH@/assets/images/jinghua-meta.webp"
+        "meta_image": "@PROJECT_PATH@/assets/images/jinghua-meta.webp",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "html_before": ""
       },
       "components": [
         {
