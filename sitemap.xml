@@ -1,167 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://sasaspa.site/</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/linsen</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/nongan</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/twin-cities</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/changan</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/nanjing</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/new-york</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/daan</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/civil-rights</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/Jinzhou</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/changchun</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/gazinongan</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-Jinghua</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-linsen</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-nongan</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-twincities</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-changan</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-nanjing</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-newyork</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-metropolis</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-civilrights</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-jinzhou</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-changchun</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/c-gazi</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/news</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/recruitment</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/about</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/half-set</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/qa</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/raiders</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sasaspa.site/Jinghua</loc>
-  <lastmod>2023-02-22T15:10:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/index.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/linsen.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/recruitment.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/about.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/twin-cities.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/changan.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/nanjing.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/new-york.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/daan.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/civil-rights.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/Jinzhou.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/changchun.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/gazinongan.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/nongan.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-linsen.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-nongan.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-twincities.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-changan.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-nanjing.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-newyork.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-metropolis.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-civilrights.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-jinzhou.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-changchun.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-gazi.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/raiders.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/half-set.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/qa.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/news.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/c-Jinghua.html</loc>
+	</url>
+	<url>
+		<loc>https://sasaspa.site/sitemap.xml/Jinghua.html</loc>
+	</url>
 </urlset>
