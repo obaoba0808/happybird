@@ -1,172 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://happybird.site/</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://happybird.site/index.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/news.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-Jinghua.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-linsen.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-nongan.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-twincities.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-changan.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-nanjing.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-newyork.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-metropolis.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-civilrights.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-jinzhou.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-changchun.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/c-gazi.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/linsen.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/nongan.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/twin-cities.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/changan.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/nanjing.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/new-york.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/daan.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/civil-rights.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/Jinzhou.html</loc>
-  <lastmod>2023-02-25T16:28:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/changchun.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/gazinongan.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/recruitment.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/about.html</loc>
-  <lastmod>2023-02-25T16:28:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/half-set.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/qa.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/raiders.html</loc>
-  <lastmod>2023-02-25T16:28:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://happybird.site/Jinghua.html</loc>
-  <lastmod>2023-02-25T16:28:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://happybird.com/sitemap.xml/index.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/linsen.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/recruitment.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/about.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/twin-cities.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/changan.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/nanjing.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/new-york.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/daan.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/civil-rights.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/Jinzhou.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/changchun.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/gazinongan.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/nongan.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-linsen.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-nongan.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-twincities.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-changan.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-nanjing.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-newyork.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-metropolis.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-civilrights.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-jinzhou.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-changchun.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-gazi.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/raiders.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/half-set.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/qa.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/news.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/c-Jinghua.html</loc>
+	</url>
+	<url>
+		<loc>https://happybird.com/sitemap.xml/Jinghua.html</loc>
+	</url>
 </urlset>
