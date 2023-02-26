@@ -300,7 +300,7 @@
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://happybird.com/sitemap.xml",
+    "siteUrl": "https://happybird.site/sitemap.xml",
     "cookiesAlert": false,
     "publishChangesOnly": true,
     "robotsText": "User-agent: *\nAllow: /\n\n\n",
