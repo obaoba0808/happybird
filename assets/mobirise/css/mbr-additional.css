@@ -1492,7 +1492,7 @@ a {
   padding-bottom: 30px;
   padding-left: 1em;
   padding-right: 1em;
-  background: linear-gradient(0deg, #ffffff, #ffffff);
+  background: linear-gradient(0deg, #fafafa, #ffffff);
 }
 .cid-zftCvMATxV .row {
   margin-left: 0;
@@ -18443,11 +18443,12 @@ a {
 .cid-tw3zjjibWE {
   padding-top: 45px;
   padding-bottom: 45px;
-  background: linear-gradient(45deg, #490f4c, #f94be8);
+  background: linear-gradient(45deg, #43054a, #ad01ca);
 }
 .cid-tw3zjjibWE .mbr-text,
 .cid-tw3zjjibWE .mbr-section-btn {
   text-align: left;
+  color: #f2beff;
 }
 .cid-tw3zjjibWE H1 {
   color: #580f60;
