@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "half-set.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -32,13 +32,13 @@
       "nameSelectPreset": "agency",
       "presetSourceTheme": "mobirise5",
       "additionalSetColors": [
-        "#ff98fa",
-        "#7d0b90",
-        "#650d71",
-        "#611769",
-        "#8c1599",
-        "#2a0338",
-        "#efefef"
+        "#43094a",
+        "#ff7f9f",
+        "#1f0529",
+        "#2c0939",
+        "#640a60",
+        "#4a064a",
+        "#920499"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -291,7 +291,7 @@
         "file": "@PROJECT_PATH@/fonts/%EF%99%88%EE%8C%A3%EE%A1%A8%EE%9D%A9%EF%80%A6%EE%BF%BA_%EF%80%99/font.ttf"
       }
     ],
-    "uniqCompNum": 465,
+    "uniqCompNum": 471,
     "versionPublish": "5.7.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -2487,7 +2487,7 @@
         "order": "19",
         "meta_descr": "林森按摩舒壓會館位於林森北路的中心點，另外交通方便 ，鄰近中山國小捷運站2號出口，裝潢相當氣派｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333296741_527233676218272_554039604624343375_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -3362,7 +3362,7 @@
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/recruitment-meta.webp",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -3487,6 +3487,146 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".v-center": {
+              "margin": "auto"
+            },
+            "h2": {
+              "text-align": "left"
+            },
+            "h4": {
+              "text-align": "left",
+              "font-weight": "500"
+            },
+            "p": {
+              "color": "#767676",
+              "text-align": "left"
+            },
+            ".aside-content": {
+              "flex-basis": "100%",
+              "-webkit-flex-basis": "100%"
+            },
+            ".block-content": {
+              "display": "-webkit-flex",
+              "flex-direction": "column",
+              "-webkit-flex-direction": "column",
+              "word-break": "break-word",
+              "padding": "1rem",
+              "& when (@imageBg)": {
+                "background": "@ImgBgColor",
+                "border-radius": "15px"
+              }
+            },
+            ".media": {
+              "margin": "initial",
+              "align-items": "center",
+              "-webkit-align-items": "center"
+            },
+            ".mbr-figure": {
+              "align-self": "flex-start",
+              "-webkit-align-self": "flex-start",
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "margin": "auto 20px",
+              "& when (@imageBg)": {
+                "background": "@ImgBgColor",
+                "border-radius": "15px",
+                "img": {
+                  "padding": "2rem"
+                }
+              }
+            },
+            ".card": {
+              "padding": "0 1rem"
+            },
+            ".card-img": {
+              "padding-right": "2rem",
+              "width": "auto"
+            },
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "#707070"
+            },
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "row-reverse"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "padding-right": "0",
+                "padding-bottom": "1rem",
+                "margin-bottom": "2rem",
+                "& when (@reverseContent)": {
+                  "padding-bottom": "0",
+                  "margin-bottom": "0",
+                  "padding-top": "1rem",
+                  "margin-top": "2rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse"
+                }
+              }
+            },
+            "@media (max-width: 300px)": {
+              ".card-img span": {
+                "font-size": "40px !important"
+              }
+            },
+            "H2": {
+              "text-align": "center",
+              "color": "#551983",
+              "& when (@glow)": {
+                "text-shadow": "0 0 2px @glowBorder, 0 0 10px @glowColor"
+              }
+            },
+            ".mbr-text": {
+              "text-align": "center",
+              "color": "#635a51"
+            },
+            "H4": {
+              "color": "#652277",
+              "text-align": "left"
+            },
+            "H3": {
+              "& when (@glow)": {
+                "text-shadow": "0 0 2px @glowBorder, 0 0 10px @glowColor"
+              }
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"_anchor\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n      <input type=\"checkbox\" title=\"Text Glow\" name=\"glow\" checked>\n      <input type=\"color\" title=\"Border\" name=\"glowBorder\" value=\"#ffffff\" condition=\"glow\">\n       <input type=\"color\" title=\"Glow Color\" name=\"glowColor\" value=\"#ffffff\" condition=\"glow\">\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"20\">\n       <input type=\"checkbox\" title=\"Content BG\" name=\"imageBg\" checked>\n      <input type=\"color\" title=\"Content Bg Color\" name=\"ImgBgColor\" value=\"#ffffff\" condition=\"imageBg\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n          \n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"https://cdn.pixabay.com/photo/2016/02/19/10/13/pug-1209129_1280.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#1f0529\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\"> \n      <div>\n        <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>聯絡</b></h2>\n                    <div class=\"mbr-section-text\">\n                        <h3 class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\"><b>\n                        Click any text or icon to edit or style it. Use the block parameters to hide/show text or icons and change media size or position.\n                        </b></h3>\n                    </div>\n      </div>\n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/334116250-1-260x257.webp\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\"align-left aside-content v-center\">\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card\">\n                            <div class=\"media\">\n                              <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-drag-n-drop2\" style=\"font-size: 48px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\"><div><b>歡迎來電詢問</b></div><div><b>\n</b></div></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Partido de Vicente Lopez<br><b>FREE!!!</b></p>\n                            </div>\n                        </div>\n\n                        <div class=\"card\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-drag-n-drop2\" style=\"font-size: 48px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\"><b>\n                                        <a href=\"tel:+886967123152\" class=\"text-primary\">0967-123152</a></b></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Belgrano, Nuñez, Saavedra, Coghlan, Villa Urquiza<br><b>$ 200\n                                </b></p>\n                            </div>\n                        </div>\n                      <div class=\"card\" mbr-if=\"cardsAmount > 2\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-drag-n-drop2\" style=\"font-size: 48px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\"><b>\n                                        或+LINE</b></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Colegiales, Palermo, Chacarita, La Paternal, Parque Chas, Villa Ortuzar<br><b>$ 250</b></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_cid": "LK4L5VEZ8X",
+          "_anchor": "design-block-LK4L5VEZ8X",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_sourceTheme": "mobirise5"
+        },
+        {
+          "alias": false,
+          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
@@ -3502,68 +3642,14 @@
               "color": "#f9ddf8"
             },
             "H1": {
-              "color": "#4a064e"
+              "color": "#4a064a"
             }
           },
           "_name": "header5",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#42153c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#ff5ce5\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>舒壓按摩正妹(誠徵)</b></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">工作壓力大、心情鬱悶嗎?\n<br>想要另一個新選則嗎？上班輕鬆，專人教育。\n<br>妳或妳的朋友轉職的好擇！\n<br>因為任何一個願望或理想可能都需要一筆資金！\n<br>妳需要人生的第一桶金嗎？！請至留言版留言我們將速與妳連繫！！\n<br>\n<br>服務內容：美容、瘦身、美體、SPA舒壓按摩，使用精油幫顧客油壓、經絡排毒。\n<br>兼職或打工一節60分鐘，抽成高1200元~2000元，小費充足，日領破萬沒問題，彈性上下班、日領\n<br>\n<br>\n<br>◉ 1. 技師免約、亦可試做、可現領\n<br>◉ 2. 正職者佳兼職亦可、年滿18有無經驗皆可\n<br>◉ 3. 工作輕鬆、週休三~五日、每日四~八小時時段自選\n<br>◉ 4. 環境優雅、備休憩區、設大型休息室可睡覺\n<br>◉ 5. 管理合宜、正規教育、福利佳收入豐盛獎金高\n<br>\n<br>歡迎按摩正妹加入我們的大家庭\n<br>我們秉持著所有東西檯面化，至於其他問題要約當面談也可以，我們是全方位的人力仲介公司。\n<br>只要你決心投入，願意給自己一個改變的機會\n<br>在無壓力的環境下輕鬆上班創造豐厚的收入\n<br>你的選擇與財富將會是我們最大的榮耀與妳一同努力。\n<br>\n<br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#920499\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#920499\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>舒壓按摩正妹(誠徵)</b></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">工作壓力大、心情鬱悶嗎?\n<br>想要另一個新選則嗎？上班輕鬆，專人教育。\n<br>妳或妳的朋友轉職的好擇！\n<br>因為任何一個願望或理想可能都需要一筆資金！\n<br>妳需要人生的第一桶金嗎？！請至留言版留言我們將速與妳連繫！！\n<br>\n<br>服務內容：美容、瘦身、美體、SPA舒壓按摩，使用精油幫顧客油壓、經絡排毒。\n<br>兼職或打工一節60分鐘，抽成高1200元~2000元，小費充足，日領破萬沒問題，彈性上下班、日領\n<br>\n<br>\n<br>◉ 1. 技師免約、亦可試做、可現領\n<br>◉ 2. 正職者佳兼職亦可、年滿18有無經驗皆可\n<br>◉ 3. 工作輕鬆、週休三~五日、每日四~八小時時段自選\n<br>◉ 4. 環境優雅、備休憩區、設大型休息室可睡覺\n<br>◉ 5. 管理合宜、正規教育、福利佳收入豐盛獎金高\n<br>\n<br>歡迎按摩正妹加入我們的大家庭\n<br>我們秉持著所有東西檯面化，至於其他問題要約當面談也可以，我們是全方位的人力仲介公司。\n<br>只要你決心投入，願意給自己一個改變的機會\n<br>在無壓力的環境下輕鬆上班創造豐厚的收入\n<br>你的選擇與財富將會是我們最大的榮耀與妳一同努力。\n<br>\n<br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "tvIFG3oQjc",
           "_anchor": "header5-21",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
-            },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          },
-          "_name": "content6",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"40\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/334116250-260x257.webp\" alt=\"Mobirise\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>歡迎來電詢問\n<br>\n<br></b><a href=\"tel:+886967123152\" class=\"text-primary\"><b>0967-123152</b></a><b><br>\n<br>或+LINE</b></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content6-77",
-          "_isUserblock": true,
-          "_cid": "tw0c9EenY9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4078,7 +4164,7 @@
           },
           "_name": "footer5",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"footer5\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected=\"\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                       <img src=\"@PROJECT_PATH@/assets/images/1-removebg-preview-removebg-preview-1.webp\" alt=\"半套按摩舒壓 | 快樂鳥按摩spa\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-9\">\n                <p class=\"mbr-text align-right links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">&nbsp; &nbsp;<a href=\"news.html#header9-3l\" class=\"text-secondary\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\">最新消息&nbsp; </a>&nbsp; <a href=\"about.html#header19-24\" class=\"text-secondary text-primary\" target=\"_blank\">聯絡我們</a><b><a href=\"about.html#header19-24\" class=\"text-primary\">&nbsp;</a>&nbsp;</b><a href=\"recruitment.html#header19-3\" class=\"text-white text-primary\" target=\"_blank\" style=\"\">徵才資訊</a> &nbsp; &nbsp; &nbsp;</p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-md-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-md-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2023 快樂鳥按摩spa - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"footer5\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected>0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                       <img src=\"@PROJECT_PATH@/assets/images/1-removebg-preview-removebg-preview-1.webp\" alt=\"半套按摩舒壓 | 快樂鳥按摩spa\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-9\">\n                <p class=\"mbr-text align-right links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">&nbsp; &nbsp;<a href=\"news.html#header9-3l\" class=\"text-secondary\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\">最新消息&nbsp; </a>&nbsp; <a href=\"about.html#header19-24\" class=\"text-secondary text-primary\" target=\"_blank\">聯絡我們</a><b><a href=\"about.html#header19-24\" class=\"text-primary\">&nbsp;</a>&nbsp;</b><a href=\"recruitment.html#header19-3\" class=\"text-white text-primary\" target=\"_blank\" style>徵才資訊</a> &nbsp; &nbsp; &nbsp;</p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-md-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-md-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2023 快樂鳥按摩spa - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "footer5-bv",
           "_isUserblock": true,
           "_cid": "twXaQiPqtt",
@@ -4097,7 +4183,7 @@
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/8b19e6ee-156b-4151-8fd0-fdb0f376cd7a.webp",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>"
+        "footer_custom": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSdcc34IIiVHbdtAV4oEVttjmFgKIReaa4ilJb777bS0sQ46bw/viewform?embedded=true\" width=\"640\" height=\"1042\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">載入中…</iframe>\n\n<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>"
       },
       "components": [
         {
@@ -4222,155 +4308,137 @@
           "_name": "design-block",
           "_sourceTheme": "mobirise5",
           "_styles": {
-            "& when (@bg-type = \"image\")": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@bg-type = \"color\")": {
-              "& when not (@gradientBg)": {
-                "background-color": "@bg-value"
-              },
-              "& when (@gradientBg)": {
-                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
-              }
+            ".v-center": {
+              "margin": "auto"
             },
-            "padding-top": "(@paddingTop * 20px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            ".image-wrapper": {
-              "@media (max-width: 991px)": {
-                "margin-bottom": "2rem"
-              },
-              "img": {
-                "width": "100%",
-                "object-fit": "cover"
-              }
-            },
-            ".container-fluid": {
-              "padding": "1"
-            },
-            ".text-wrapper": {
-              "padding": "0 4rem",
-              "@media (max-width: 768px)": {
-                "padding": "0 2rem"
-              }
-            },
-            ".showAlerts": {
-              "display": "block !important"
-            },
-            ".rowflexrev": {
-              "display": "-webkit-flex"
-            },
-            "& when (@confirmationBelow)": {
-              ".ws-form-alerts": {
-                "margin-top": "1rem"
-              }
-            },
-            ".title": {
-              "margin-bottom": "2rem"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff"
-            },
-            "textarea.form-control": {
-              "min-height": "188px"
-            },
-            "LABEL": {
-              "color": "#232323",
-              "display": "initial"
-            },
-            ".mbr-section-terms": {
-              "text-align": "center",
-              "color": "#ffffff",
-              "margin-bottom": "0px"
-            },
-            ".mbr-section-labels": {
-              "color": "#ffffff",
-              "padding": "0",
-              "margin-bottom": ".357em",
+            "h2": {
               "text-align": "left"
             },
-            ".mbr-section-autorespond": {
+            "h4": {
               "text-align": "left",
-              "color": "#232323",
-              "margin-bottom": "0px"
+              "font-weight": "500"
             },
-            ".mbr-section-gdpr": {
-              "text-align": "center",
-              "color": "#232323",
-              "margin-bottom": "0px"
+            "p": {
+              "color": "#767676",
+              "text-align": "left"
             },
-            ".alert": {
-              "margin-bottom": "0"
+            ".aside-content": {
+              "flex-basis": "100%",
+              "-webkit-flex-basis": "100%"
             },
-            ".alert-success": {
-              "background-color": "@bgColorSuccess"
-            },
-            ".alert-danger": {
-              "background-color": "@bgColorError"
-            },
-            ".btn": {
-              "display": "inline-flex"
-            },
-            ".hidden": {
-              "display": "none"
-            },
-            ".mbr-alert-success": {
-              "text-align": "center",
-              "color": "#232323"
-            },
-            ".mbr-alert-danger": {
-              "text-align": "center",
-              "color": "#232323"
-            },
-            ".uploadBtn": {
-              "padding-top": "unit(@uploadBtnPaddingY, px) !important",
-              "padding-left": "unit(@uploadBtnPaddingX, px) !important"
-            },
-            "input[type=file]::file-selector-button": {
-              "border": "(@uploadBtnBdrWidth * 1px) solid @uploadBtnBdrColor !important",
-              "padding": ".2em .4em",
-              "border-radius": ".2em",
-              "background-color": "@uploadBtnBgColor !important",
-              "color": "@uploadBtnTxtColor !important",
-              "transition": "0.3s"
-            },
-            "input[type=file]::-webkit-file-upload-button": {
-              "border": "(@uploadBtnBdrWidth * 1px) solid @uploadBtnBdrColor !important",
-              "padding": ".2em .4em",
-              "border-radius": ".2em",
-              "background-color": "@uploadBtnBgColor !important",
-              "color": "@uploadBtnTxtColor !important",
-              "transition": "0.3s"
-            },
-            "input[type=file]::-ms-browse": {
-              "border": "(@uploadBtnBdrWidth * 1px) solid @uploadBtnBdrColor !important",
-              "padding": ".2em .4em",
-              "border-radius": ".2em",
-              "background-color": "@uploadBtnBgColor !important",
-              "color": "@uploadBtnTxtColor !important",
-              "transition": "0.3s"
-            },
-            "input, textarea": {
-              "background-color": "@bginput !important"
-            },
-            "& when (@showFieldBorder)": {
-              ".form-control": {
-                "border": "(@floatingFormBorderThickness * 1px) solid @floatingWindowFbColor !important"
-              },
-              ".form-control:hover": {
-                "border": "(@floatingFormBorderHoverThickness * 1px) solid @fieldBorderHoverColor !important"
-              },
-              ".form-control:focus": {
-                "border": "(@floatingFormBorderHoverThickness * 1px) solid @fieldBorderHoverColor !important"
+            ".block-content": {
+              "display": "-webkit-flex",
+              "flex-direction": "column",
+              "-webkit-flex-direction": "column",
+              "word-break": "break-word",
+              "padding": "1rem",
+              "& when (@imageBg)": {
+                "background": "@ImgBgColor",
+                "border-radius": "15px"
               }
             },
-            ".mbr-section-title": {
-              "color": "#ffffff"
+            ".media": {
+              "margin": "initial",
+              "align-items": "center",
+              "-webkit-align-items": "center"
+            },
+            ".mbr-figure": {
+              "align-self": "flex-start",
+              "-webkit-align-self": "flex-start",
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "margin": "auto 20px",
+              "& when (@imageBg)": {
+                "background": "@ImgBgColor",
+                "border-radius": "15px",
+                "img": {
+                  "padding": "2rem"
+                }
+              }
+            },
+            ".card": {
+              "padding": "0 1rem"
+            },
+            ".card-img": {
+              "padding-right": "2rem",
+              "width": "auto"
+            },
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "#707070"
+            },
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "row-reverse"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "padding-right": "0",
+                "padding-bottom": "1rem",
+                "margin-bottom": "2rem",
+                "& when (@reverseContent)": {
+                  "padding-bottom": "0",
+                  "margin-bottom": "0",
+                  "padding-top": "1rem",
+                  "margin-top": "2rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse"
+                }
+              }
+            },
+            "@media (max-width: 300px)": {
+              ".card-img span": {
+                "font-size": "40px !important"
+              }
+            },
+            "H2": {
+              "text-align": "center",
+              "color": "#551983",
+              "& when (@glow)": {
+                "text-shadow": "0 0 2px @glowBorder, 0 0 10px @glowColor"
+              }
+            },
+            ".mbr-text": {
+              "text-align": "center",
+              "color": "#635a51"
+            },
+            "H4": {
+              "color": "#652277",
+              "text-align": "left"
+            },
+            "H3": {
+              "& when (@glow)": {
+                "text-shadow": "0 0 2px @glowBorder, 0 0 10px @glowColor"
+              }
+            },
+            "DIV": {
+              "text-align": "left"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"witsec-mailform mbr-section\" plugins=\"witsec-mailform\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\">\n    <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"3\" max=\"7\" step=\"1\" value=\"3\">\n    \n    <header>Title/Subtitle</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        \n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\" checked>\n    <input type=\"checkbox\" title=\"Show GDPR\" name=\"showGDPR\">\n    <input type=\"checkbox\" title=\"Show reCAPTCHA Terms\" name=\"showTerms\">\n    <input type=\"checkbox\" title=\"Show Labels\" name=\"showLabels\">\n    <input type=\"checkbox\" title=\"Show Upload\" name=\"showUpload\">\n\n    <header>Placeholders</header>\n    <header>Global settings can be changed in the <a href=\"#\" onclick=\"$('.projects-show').click()\">Site Settings</a> of your website</header>\n    <input type=\"text\" title=\"Name\" name=\"phName\" value=\"姓名\">\n    <input type=\"text\" title=\"Email\" name=\"phEmail\" value=\"信箱\">\n    <input type=\"text\" title=\"Phone\" name=\"phPhone\" value=\"電話\" condition=\"showPhone\">\n    <input type=\"text\" title=\"Message\" name=\"phMessage\" value=\"留言\">\n    \n    <header>Style</header>\n    <input type=\"color\" title=\"Field BG Color\" name=\"bginput\" value=\"#dfdfdf\" selected>\n    <input type=\"checkbox\" title=\"Field Border\" name=\"showFieldBorder\" checked>\n    <input type=\"color\" title=\"Field Border Color\" name=\"floatingWindowFbColor\" value=\"#c21898\" condition=\"showFieldBorder\">\n    <input type=\"range\" inline title=\"Field Border Thickness\" name=\"floatingFormBorderThickness\" min=\"1\" max=\"5\" step=\"0.5\" value=\"3\" condition=\"showFieldBorder\">\n    <input type=\"color\" title=\"Field Border Hover Color\" name=\"fieldBorderHoverColor\" value=\"#000000\" condition=\"showFieldBorder\">\n    <input type=\"range\" inline title=\"Field Border Hover Thickness\" name=\"floatingFormBorderHoverThickness\" min=\"1\" max=\"5\" step=\"0.5\" value=\"3\" condition=\"showFieldBorder\">\n    <select title=\"Align Submit\" name=\"alignSubmit\">\n      <option value>Left</option>\n      <option value=\"align-center\">Center</option>\n      <option value=\"align-right\" selected>Right</option>\n    </select>\n    \n    <header condition=\"showUpload\">Upload Options</header>\n    <input type=\"text\" title=\"File Extension Filter\" name=\"acceptedFileTypes\" value=\".gif, .jpg, .jpeg, .png, .pdf\" condition=\"showUpload\">\n    <input type=\"checkbox\" title=\"Multiple Files\" name=\"uploadMultiple\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Padding Top\" name=\"uploadBtnPaddingY\" min=\"0\" max=\"50\" step=\"0.5\" value=\"13\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Padding Left\" name=\"uploadBtnPaddingX\" min=\"0\" max=\"50\" step=\"0.5\" value=\"12.5\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Background Color\" name=\"uploadBtnBgColor\" value=\"#cccccc\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Text Color\" name=\"uploadBtnTxtColor\" value=\"#232323\" condition=\"showUpload\">\n    <input type=\"color\" title=\"Border Color\" name=\"uploadBtnBdrColor\" value=\"#232323\" condition=\"showUpload\">\n    <input type=\"range\" inline title=\"Border Width\" name=\"uploadBtnBdrWidth\" min=\"0\" max=\"3\" step=\"0.25\" value=\"1\" condition=\"showUpload\">\n\n    <header>Form Options</header>\n    <input type=\"text\" title=\"Alternative Recipient (use Address Book ID as defined in Site Settings)\" name=\"recipientID\" value>\n    <input type=\"text\" title=\"Subject\" name=\"txtSubject\" value=\"A message from your website.\">\n    <select title=\"Autorespond\" name=\"autorespond\">\n      <option value=\"0\">Off</option>\n      <option value=\"1\" selected>On</option>\n      <option value=\"2\">User Decision</option>\n    </select>\n    <select title=\"On Success\" name=\"onsuccess\">\n      <option value=\"0\" selected>Stay</option>\n      <option value=\"1\">Redirect</option>\n    </select>\n    <input type=\"checkbox\" title=\"Confirmation Below Form\" name=\"confirmationBelow\" checked>\n    <header condition=\"onsuccess == 1\">RedirectURL</header>\n    <input type=\"text\" title=\"Redirect to\" name=\"redirectURL\" value=\"thanks.html\" condition=\"onsuccess == 1\">\n\n    <header>Mini Templates (optional)</header>\n    <textarea name=\"mtxt\" title=\"Normal Mail\">happybird0967123152@gmail.com</textarea>\n    <textarea name=\"rtxt\" title=\"Response Mail\" condition=\"autorespond > 0\"></textarea>\n\n    <header>Alerts</header>\n    <input type=\"checkbox\" title=\"Show Alerts in Mobirise\" name=\"showAlerts\">\n    <input type=\"color\" title=\"Success BG Color\" name=\"bgColorSuccess\" value=\"#70c770\" condition=\"onsuccess == 0\">\n    <input type=\"color\" title=\"Error BG Color\" name=\"bgColorError\" value=\"#ff4a52\">\n\n    <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value parallax>\n            <input type=\"color\" title=\"Color\" value=\"#2f0d31\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#0c010d\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"178\" step=\"1\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <!-- Title Subtitle -->\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center align-items-center\">\n    <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>註冊會員可享最新按摩師週報資訊</b></h3>\n    <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">By clicking on the <span class=\"bi-gear mbr-iconfont\" style=\"font-size: 25px; color: rgb(64, 155, 199);\"></span> you can modify the various parameters.<br>This block works with <a href=\"https://witsec.nl/extension-mailform.html\" class=\"text-primary\" target=\"_blank\">witsec-mailform 12.X</a></h4>\n    </div>\n    </div>\n    </div>\n  <!-- Image Left -->    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center align-items-center\">\n    <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n    <img src=\"@PROJECT_PATH@/assets/images/329266037-594309345362466-7380338222214943362-n-removebg-preview-500x500.webp\" alt=\"按摩排毒\">\n    </div>\n<!-- Contact Form Right -->\n    <div class=\"col-lg-4 offset-lg-0\">\n    <form class=\"mbr-form\">\n    <input type=\"hidden\" name=\"recipient\" value=\"{{recipientID}}\" mbr-if=\"recipientID\">\n    <input type=\"hidden\" name=\"subject\" value=\"{{txtSubject}}\">\n    <input type=\"hidden\" name=\"autorespond\" value=\"1\" mbr-if=\"autorespond=='1'\">\n    <input type=\"hidden\" name=\"redirectURL\" value=\"{{redirectURL}}\" mbr-if=\"onsuccess=='1'\">\n    <input type=\"hidden\" name=\"mtxt\" value=\"{{mtxt}}\" mbr-if=\"mtxt\">\n    <input type=\"hidden\" name=\"rtxt\" value=\"{{rtxt}}\" mbr-if=\"rtxt &amp;&amp; autorespond > 0\">\n    <div class=\"rowflexrev\" mbr-class=\"{ 'flex-column': !confirmationBelow, 'flex-column-reverse': confirmationBelow }\">\n    <div class=\"row\">\n    <div class=\"col-md-12 form-group mb-3 ws-form-alerts\">\n    <div hidden=\"hidden\" mbr-text class=\"alert alert-success col-12 mbr-alert-success mbr-fonts-style\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-alert-success\" mbr-if=\"onsuccess=='0'\">Thanks for filling out the form!</div>\n    <div hidden=\"hidden\" mbr-text class=\"alert alert-danger col-12 mbr-alert-danger mbr-fonts-style\" mbr-class=\"{showAlerts: !isPublish && showAlerts}\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-alert-danger\">An error occured. Please try again.</div>\n    </div>\n    </div>\n    <div class=\"row\">\n    <div class=\"col-md-12 form-group mb-3\" mbr-class=\"{'col-md-6': !showPhone}\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Name</p>\n    <input id=\"fieldcolor\" type=\"text\" name=\"name\" placeholder=\"{{phName}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n    </div>\n    <div class=\"col-md-12 form-group mb-3\" mbr-class=\"{'col-md-6': !showPhone}\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Email</p>\n    <input id=\"fieldcolor\" type=\"email\" name=\"email\" placeholder=\"{{phEmail}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n    </div>\n    <div mbr-if=\"showPhone\" class=\"col-md-12 form-group mb-3\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Phone</p>\n    <input id=\"fieldcolor\" type=\"tel\" name=\"phone\" placeholder=\"{{phPhone}}\" mbr-theme-style=\"display-7\" class=\"form-control\">\n    </div>\n    <div class=\"col-md-12 form-group mb-3\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">Message</p>\n    <textarea id=\"fieldcolor\" name=\"message\" placeholder=\"{{phMessage}}\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\"></textarea>\n    </div>\n    <div class=\"col-md-12 form-group mb-3 mb-3\" mbr-if=\"showUpload\">\n    <p mbr-text mbr-theme-style=\"display-7\" class=\"mbr-section-labels mbr-fonts-style\" data-app-edit=\"content\" data-app-selector=\".mbr-section-labels\" mbr-if=\"showLabels\">File</p>\n    <input class=\"form-control uploadBtn\" type=\"file\" name=\"file\" accept=\"{{acceptedFileTypes}}\" mbr-if=\"!uploadMultiple\">\n    <input class=\"form-control uploadBtn\" type=\"file\" name=\"file[]\" accept=\"{{acceptedFileTypes}}\" mbr-if=\"uploadMultiple\" multiple>\n    </div>\n    <div mbr-if=\"autorespond=='2' || showGDPR\" class=\"col-md-12 justify-content-center form-group mb-3\">\n    <p class=\"mbr-section-autorespond mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-autorespond\" mbr-if=\"autorespond=='2'\">\n    <input type=\"checkbox\" name=\"autorespond\" value=\"1\">\n    <label class=\"mbr-section-autorespond mbr-fonts-style\">Send me a copy</label>\n    </p>\n    <p class=\"mbr-section-gdpr mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-gdpr\" mbr-if=\"showGDPR\">\n    <input type=\"checkbox\" name=\"GDPR\" value=\"1\" required>\n    <label class=\"mbr-section-gdpr mbr-fonts-style\">By continuing you agree to our <a href=\"terms.html\" class=\"text-white\">Terms of Service</a> and <a href=\"policy.html\" class=\"text-white\">Privacy Policy</a>.</label></p>\n    </div>\n    <div mbr-if=\"showTerms\" class=\"col-md-12 justify-content-center form-group mb-3\">\n    <p class=\"mbr-section-terms mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-edit=\"content\" data-app-selector=\".mbr-section-terms\">This form uses Google's reCAPTCHA. By continuing you agree to the <a href=\"https://policies.google.com/privacy\" target=\"_blank\" class=\"text-primary\">Privacy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\">Terms</a>.\n    </p>\n    </div>\n    <div class=\"g-recaptcha col-md-12 form-group mb-3\" mbr-class=\"{'hidden': !isPublish}\"></div>\n    <div class=\"col-md-12 input-group-btn {{alignSubmit}}\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-form btn-success\" data-app-placeholder=\"Type Text\">立即領取</a></div>\n    </div>\n    </div>\n    </form>\n    </div>\n    </div>\n  </div>\n</section>",
-          "_anchor": "design-block-ad",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"_anchor\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n      <input type=\"checkbox\" title=\"Text Glow\" name=\"glow\" checked=\"\">\n      <input type=\"color\" title=\"Border\" name=\"glowBorder\" value=\"#ffffff\" condition=\"glow\">\n       <input type=\"color\" title=\"Glow Color\" name=\"glowColor\" value=\"#ffffff\" condition=\"glow\">\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"20\">\n       <input type=\"checkbox\" title=\"Content BG\" name=\"imageBg\" checked=\"\">\n      <input type=\"color\" title=\"Content Bg Color\" name=\"ImgBgColor\" value=\"#ffffff\" condition=\"imageBg\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n          \n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"https://cdn.pixabay.com/photo/2016/02/19/10/13/pug-1209129_1280.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#1f0529\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\"> \n      <div>\n        <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>聯絡</b></h2>\n                    <div class=\"mbr-section-text\">\n                        <h3 class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\"><b>\n                        Click any text or icon to edit or style it. Use the block parameters to hide/show text or icons and change media size or position.\n                        </b></h3>\n                    </div>\n      </div>\n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/334116250-1-260x257.webp\" alt=\"Mobirise\" title=\"\">\n                </div>\n                <div class=\"align-left aside-content v-center\">\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card\">\n                            <div class=\"media\">\n                              <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont mbri-drag-n-drop2\" style=\"font-size: 48px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\"><div><b>歡迎來電詢問</b></div><div><b>\n</b></div></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Partido de Vicente Lopez<br><b>FREE!!!</b></p>\n                            </div>\n                        </div>\n\n                        <div class=\"card\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont mbri-drag-n-drop2\" style=\"font-size: 48px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\"><b>\n                                        <a href=\"tel:+886967123152\" class=\"text-primary\">0967-123152</a></b></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Belgrano, Nuñez, Saavedra, Coghlan, Villa Urquiza<br><b>$ 200\n                                </b></p>\n                            </div>\n                        </div>\n                      <div class=\"card\" mbr-if=\"cardsAmount > 2\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont mbri-drag-n-drop2\" style=\"font-size: 48px;\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTextHead\"><b>\n                                        或+LINE</b></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Colegiales, Palermo, Chacarita, La Paternal, Parque Chas, Villa Ortuzar<br><b>$ 250</b></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_anchor": "design-block-d2",
           "_isUserblock": true,
-          "_cid": "twvOsQFFu4",
+          "_cid": "tx0PxREUUn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4379,51 +4447,22 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#7d0b90"
             },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            ".mbr-text": {
-              "color": "#ffffff",
-              "text-align": "center"
+            ".frame": {
+              "min-height": "(@height * 100px)"
             }
           },
-          "_name": "content6",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"35\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/334116250-260x257.png\" alt=\"Mobirise\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>歡迎來電詢問\n<br>\n<br><a href=\"tel:+886967123152\" class=\"text-primary\">0967-123152</a><br>\n<br>或+LINE</b></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "tvIJZDPhBy",
-          "_anchor": "content6-26",
+          "_name": "design-block",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>IFRAME BLOCK</header>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <input type=\"range\" inline title=\"Height\" name=\"height\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Iframe Link</header>\n        <input type=\"text\" inline title=\"link\" name=\"link\" value=\"https://forms.gle/KBuXPUq4wbhrFEM16\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Iframe\" name=\"showiframe\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f0ebf8\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}} frame\">\n                <div class=\"col-12\" style=\"margin-bottom: 20px;\" mbr-if=\"showMainTitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    <b>註冊會員可享最新按摩師週報資訊</b></h3>\n                </div>\n                <iframe mbr-if=\"showiframe\" allow=\"camera; microphone; fullscreen; autoplay\" src=\"{{link}}\" style=\"height: 100%; width: 100%; border: 0px;\"></iframe>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uSCcOVwWCM",
+          "_anchor": "design-block-uSCcOVwWCM",
+          "_sourceTheme": "mobirise5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4938,7 +4977,7 @@
           },
           "_name": "footer5",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"footer5\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected=\"\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                       <img src=\"@PROJECT_PATH@/assets/images/1-removebg-preview-removebg-preview-1.webp\" alt=\"半套按摩舒壓 | 快樂鳥按摩spa\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-9\">\n                <p class=\"mbr-text align-right links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">&nbsp; &nbsp;<a href=\"news.html#header9-3l\" class=\"text-secondary\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\">最新消息&nbsp; </a>&nbsp; <a href=\"about.html#header19-24\" class=\"text-secondary text-primary\" target=\"_blank\">聯絡我們</a><b><a href=\"about.html#header19-24\" class=\"text-primary\">&nbsp;</a>&nbsp;</b><a href=\"recruitment.html#header19-3\" class=\"text-white text-primary\" target=\"_blank\" style=\"\">徵才資訊</a> &nbsp; &nbsp; &nbsp;</p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-md-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-md-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2023 快樂鳥按摩spa - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"footer5\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected>0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                       <img src=\"@PROJECT_PATH@/assets/images/1-removebg-preview-removebg-preview-1.webp\" alt=\"半套按摩舒壓 | 快樂鳥按摩spa\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-md-9\">\n                <p class=\"mbr-text align-right links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">&nbsp; &nbsp;<a href=\"news.html#header9-3l\" class=\"text-secondary\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\"></a><a href=\"news.html#header9-3l\" class=\"text-secondary\" target=\"_blank\">最新消息&nbsp; </a>&nbsp; <a href=\"about.html#header19-24\" class=\"text-secondary text-primary\" target=\"_blank\">聯絡我們</a><b><a href=\"about.html#header19-24\" class=\"text-primary\">&nbsp;</a>&nbsp;</b><a href=\"recruitment.html#header19-3\" class=\"text-white text-primary\" target=\"_blank\" style>徵才資訊</a> &nbsp; &nbsp; &nbsp;</p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-md-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-md-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2023 快樂鳥按摩spa - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "footer5-bw",
           "_isUserblock": true,
           "_cid": "twXaSYbGSJ",
@@ -4955,7 +4994,7 @@
         "order": "21",
         "meta_descr": "雙城按摩舒壓會館麻雀雖小五臟俱全！\n妹妹素質都還不錯喔！附近就是晴光商場，相當方便｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333350471_901135837823303_1094761857334851507_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -5830,7 +5869,7 @@
         "meta_descr": "長安按摩舒壓會館裝潢簡約，不同流俗，簡單卻不失品味美容師平均素質中等，注重服務及氣氛！適合愛玩、敢玩，喜歡High到翻氛圍的小哥哥們～｜快樂鳥按摩spa",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/333351924_1008807343417899_7448844100516660789_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -6704,7 +6743,7 @@
         "order": "24",
         "meta_descr": "南京按摩舒壓會館 交通非常便利附近許多熱炒及燒烤林立長安東路靠近八條通地理位置比較中間｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333896167_585493743481850_5573262048628768175_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -7578,7 +7617,7 @@
         "order": "25",
         "meta_descr": "紐約按摩舒壓會館 美容師頗多的店家周圍四通八達十分便利｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333444673_599107221687412_9069469572264629584_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -8453,7 +8492,7 @@
         "meta_descr": "大都會按摩舒壓會館新進許多美容師，都是台灣妹妹\n平均年齡１８－２８歲，整體素質平均起來相當的高，通常不太會出現打槍的情況，歡迎各位客人到現場選妃｜快樂鳥按摩spa",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/333967499_1379124896235184_7904563004160448870_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -9327,7 +9366,7 @@
         "order": "27",
         "meta_descr": "民權按摩舒壓會館大同區台北橋下\n新北市三重或板橋的客人來這邊相當方便\n民權店內寬敞，包廂超級大｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/332094097_746279987114594_4639562035319324180_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -10201,7 +10240,7 @@
         "order": "28",
         "meta_descr": "錦州按摩舒壓會館 裝潢非常新，11間包廂，非常乾淨明亮，店內沒有菸味，都有獨立衛浴｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333822678_3472055276416826_3093342090241349201_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -11075,7 +11114,7 @@
         "order": "29",
         "meta_descr": "長春按摩舒壓會館 全新裝潢過，木質日式簡約風，小姐基本素質還不錯 尺度是還不錯有些妹妹都有送福利～可以來現場挑挑看｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/332111066_741008857622447_7540624692968462716_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -11951,7 +11990,7 @@
         "header_custom": "",
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/333804378_942458133586662_6475941381250791968_n-removebg-preview%20(1).webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -12825,7 +12864,7 @@
         "order": "30",
         "meta_descr": "農安按摩舒壓會館位於農安街，近晴光商圈/雙城街夜市，最近的捷運站為中山國小站｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333983256_161513790013008_6569388589917463924_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -13699,7 +13738,7 @@
         "order": "8",
         "meta_descr": "按摩芳療師 | 林森館照片及按摩師班表 空班按摩師一目了然隨時預約",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -14580,7 +14619,7 @@
         "title": "按摩芳療師 | 農安館照片",
         "order": "9",
         "meta_descr": "按摩芳療師 | 農安館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -15458,7 +15497,7 @@
         "title": "按摩芳療師 | 雙城館照片",
         "order": "10",
         "meta_descr": "按摩芳療師 | 農安館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -16336,7 +16375,7 @@
         "title": "按摩芳療師 | 長安館照片",
         "order": "11",
         "meta_descr": "按摩芳療師 | 長安館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -17214,7 +17253,7 @@
         "title": "按摩芳療師 | 南京館照片",
         "order": "12",
         "meta_descr": "按摩芳療師 | 南京館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -18092,7 +18131,7 @@
         "title": "按摩芳療師 | 紐約館照片",
         "order": "13",
         "meta_descr": "按摩芳療師 | 紐約館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -18970,7 +19009,7 @@
         "title": "按摩芳療師 | 大都會照片",
         "order": "18",
         "meta_descr": "按摩芳療師 | 大都會照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -19848,7 +19887,7 @@
         "title": "按摩芳療師 | 民權館照片",
         "order": "14",
         "meta_descr": "按摩芳療師 | 民權館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -20726,7 +20765,7 @@
         "title": "按摩芳療師 | 錦州館照片",
         "order": "15",
         "meta_descr": "按摩芳療師 | 錦州館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -21604,7 +21643,7 @@
         "title": "按摩芳療師 | 長春館照片",
         "order": "16",
         "meta_descr": "按摩芳療師 | 長春館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -22482,7 +22521,7 @@
         "title": "按摩芳療師 | 加姿館照片",
         "order": "17",
         "meta_descr": "按摩芳療師 | 加姿館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -23363,7 +23402,7 @@
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/raiders-meta.webp",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -24047,7 +24086,7 @@
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/333860621_586846979721295_5298427124393568071_n-removebg-preview-546x457.png",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -24187,7 +24226,7 @@
               "color": "#f2beff"
             },
             "H1": {
-              "color": "#580f60"
+              "color": "#43094a"
             }
           },
           "_name": "header5",
@@ -24730,7 +24769,7 @@
         "socialSharingUrl": "",
         "meta_image": "@PROJECT_PATH@/assets/images/333991313_1909530292724041_5435904607208098164_n-removebg-preview-546x457.png",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -25443,7 +25482,7 @@
         "order": "1",
         "meta_descr": "半套按摩正妹最新消息 大小事報給你知｜快樂鳥按摩spa",
         "socialSharingUrl": "",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "meta_image": "@PROJECT_PATH@/assets/images/news-meta.webp",
         "header_custom": "",
         "html_before": ""
@@ -26239,7 +26278,7 @@
         "title": "按摩芳療師 | 晶華館照片",
         "order": "7",
         "meta_descr": "按摩芳療師 | 雙城館照片及按摩師班表 空班按摩師一目了然隨時預約",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
@@ -27118,7 +27157,7 @@
         "order": "22",
         "meta_descr": "晶華按摩舒壓會館位於欣欣大眾，晶華商圈，附近咖啡廳，小吃店餐廳林立四通八達，交通方便，靠近捷運中山站，中山國小站每間包廂都附有液晶電視以及衛浴 ，大概17間包廂｜快樂鳥按摩spa",
         "meta_image": "@PROJECT_PATH@/assets/images/333863101_576287647884356_1829404559304967828_n-removebg-preview.webp",
-        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-8643b2b7-d0ac-45b5-86dd-2eabee6b9bc2\"></div>",
+        "footer_custom": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-a944d785-436d-4138-bd4f-7db5738e09ff\"></div>",
         "html_before": ""
       },
       "components": [
