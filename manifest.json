@@ -1,0 +1,14 @@
+
+{
+　"short_name": "快樂鳥按摩SPA",
+　"name": "快樂鳥按摩SPA!",
+　"icons": [{
+　　"src":"assets/images/icons192.png",
+　　"sizes": "192×192",
+　　"type": "image/png"
+　　}],
+　"start_url": ""/index.html"",
+　"background_color": "#000",
+　"theme_color": "#770077",
+　"display": "standalone"
+}
