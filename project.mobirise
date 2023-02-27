@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "qa.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -32,13 +32,13 @@
       "nameSelectPreset": "agency",
       "presetSourceTheme": "mobirise5",
       "additionalSetColors": [
+        "#ff0077",
         "#ff0088",
         "#43094a",
         "#ff7f9f",
         "#1f0529",
         "#2c0939",
-        "#640a60",
-        "#4a064a"
+        "#640a60"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -291,11 +291,11 @@
         "file": "@PROJECT_PATH@/fonts/%EF%99%88%EE%8C%A3%EE%A1%A8%EE%9D%A9%EF%80%A6%EE%BF%BA_%EF%80%99/font.ttf"
       }
     ],
-    "uniqCompNum": 478,
+    "uniqCompNum": 481,
     "versionPublish": "5.7.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/333524686-2177002869174009-6460510152838080826-n-removebg-preview_1.webp",
     "mbrsiteDomain": "happybird",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
@@ -3632,24 +3632,45 @@
               "padding-bottom": "(@paddingBottom * 15px)"
             },
             "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
+              "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "left",
-              "color": "#f9ddf8"
+            "P": {
+              "color": "#767676"
             },
             "H1": {
-              "color": "#4a064a"
+              "color": "#ffffff"
             }
           },
-          "_name": "header5",
+          "_name": "header16",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#920499\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#920499\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>舒壓按摩正妹(誠徵)</b></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">工作壓力大、心情鬱悶嗎?\n<br>想要另一個新選則嗎？上班輕鬆，專人教育。\n<br>妳或妳的朋友轉職的好擇！\n<br>因為任何一個願望或理想可能都需要一筆資金！\n<br>妳需要人生的第一桶金嗎？！請至留言版留言我們將速與妳連繫！！\n<br>\n<br>服務內容：美容、瘦身、美體、SPA舒壓按摩，使用精油幫顧客油壓、經絡排毒。\n<br>兼職或打工一節60分鐘，抽成高1200元~2000元，小費充足，日領破萬沒問題，彈性上下班、日領\n<br>\n<br>\n<br>◉ 1. 技師免約、亦可試做、可現領\n<br>◉ 2. 正職者佳兼職亦可、年滿18有無經驗皆可\n<br>◉ 3. 工作輕鬆、週休三~五日、每日四~八小時時段自選\n<br>◉ 4. 環境優雅、備休憩區、設大型休息室可睡覺\n<br>◉ 5. 管理合宜、正規教育、福利佳收入豐盛獎金高\n<br>\n<br>歡迎按摩正妹加入我們的大家庭\n<br>我們秉持著所有東西檯面化，至於其他問題要約當面談也可以，我們是全方位的人力仲介公司。\n<br>只要你決心投入，願意給自己一個改變的機會\n<br>在無壓力的環境下輕鬆上班創造豐厚的收入\n<br>你的選擇與財富將會是我們最大的榮耀與妳一同努力。\n<br>\n<br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "tvIFG3oQjc",
-          "_anchor": "header5-21",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ff0077\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">(誠徵) 舒壓按摩正妹</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-dc",
+          "_isUserblock": true,
+          "_cid": "tx3Z4tjD27",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#ff0088"
+            }
+          },
+          "_name": "content2",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".mbr-text, blockquote\">\n                <blockquote><span style=\"font-style: normal;\"><b>工作壓力大、心情鬱悶嗎?想要另一個新選則嗎？上班輕鬆，專人教育。<br></b></span><span style=\"font-size: 1.09rem; font-style: normal;\"><b>妳或妳的朋友轉職的好擇！因為任何一個願望或理想可能都需要一筆資金！<br></b></span><span style=\"font-size: 1.09rem; font-style: normal;\"><b>妳需要人生的第一桶金嗎？！</b></span><span style=\"font-size: 1.09rem; font-style: normal;\"><b>請至留言版留言我們將速與妳連繫！！<br></b></span><span style=\"font-size: 1.09rem; font-style: normal;\"><b><br>服務內容：美容、瘦身、美體、SPA舒壓按摩，使用精油幫顧客油壓、經絡排毒。<br></b></span><b style=\"font-size: 1.09rem; font-style: normal;\">兼職或打工一節60分鐘，抽成高1200元~2000元，小費充足，日領破萬沒問題，彈性上下班、日領<br><br>◉ 1. 技師免約、亦可試做、可現領<br></b><b style=\"font-size: 1.09rem; font-style: normal;\">◉ 2. 正職者佳兼職亦可、年滿18有無經驗皆可<br></b><b style=\"font-size: 1.09rem; font-style: normal;\">◉ 3. 工作輕鬆、週休三~五日、每日四~八小時時段自選<br></b><b style=\"font-size: 1.09rem; font-style: normal;\">◉ 4. 環境優雅、備休憩區、設大型休息室可睡覺<br></b><span style=\"font-size: 1.09rem;\"><b style=\"font-style: normal;\">◉ 5. 管理合宜、正規教育、福利佳收入豐盛獎金高<br><br>歡迎按摩正妹加入我們的大家庭<br>我們秉持著所有東西檯面化，至於其他問題要約當面談也可以，我們是全方位的人力仲介公司。</b></span><b style=\"font-size: 1.09rem; font-style: normal;\">只要你決心投入，願意給自己一個改變的機會</b><b style=\"font-size: 1.09rem; font-style: normal;\">在無壓力的環境下輕鬆上班創造豐厚的收入</b><b style=\"font-size: 1.09rem; font-style: normal;\">你的選擇與財富將會是我們最大的榮耀與妳一同努力。</b></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content2-db",
+          "_isUserblock": true,
+          "_cid": "tx3XAz2EUM",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
