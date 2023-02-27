@@ -3273,16 +3273,25 @@ a {
 .cid-LK4L5VEZ8X DIV {
   text-align: left;
 }
-.cid-tvIFG3oQjc {
-  background: linear-gradient(45deg, #920499, #920499);
+.cid-tx3Z4tjD27 {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ff0077;
 }
-.cid-tvIFG3oQjc .mbr-text,
-.cid-tvIFG3oQjc .mbr-section-btn {
-  text-align: left;
-  color: #f9ddf8;
+.cid-tx3Z4tjD27 P {
+  color: #767676;
 }
-.cid-tvIFG3oQjc H1 {
-  color: #4a064a;
+.cid-tx3Z4tjD27 H1 {
+  color: #ffffff;
+}
+.cid-tx3XAz2EUM {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-tx3XAz2EUM .mbr-text,
+.cid-tx3XAz2EUM blockquote {
+  color: #ff0088;
 }
 .cid-tvRWQnIpjb {
   z-index: 1000;
