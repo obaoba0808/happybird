@@ -1085,11 +1085,12 @@ a {
 }
 .cid-tuYZZmHp7k .mbr-section-title {
   text-align: right;
-  color: #952b9c;
+  color: #9f0cc7;
 }
 .cid-tuYZZmHp7k .mbr-text,
 .cid-tuYZZmHp7k .mbr-section-btn {
   text-align: right;
+  color: #ffffff;
 }
 .cid-tvOSftloBi {
   padding-top: 15px;
@@ -3292,6 +3293,7 @@ a {
 .cid-tx3XAz2EUM .mbr-text,
 .cid-tx3XAz2EUM blockquote {
   color: #ff0088;
+  text-align: left;
 }
 .cid-tvRWQnIpjb {
   z-index: 1000;
