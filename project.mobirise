@@ -295,7 +295,7 @@
     "versionPublish": "5.7.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/333524686-2177002869174009-6460510152838080826-n-removebg-preview_1.webp",
+    "favicon": false,
     "mbrsiteDomain": "happybird",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
