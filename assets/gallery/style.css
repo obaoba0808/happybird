@@ -400,3 +400,7 @@
 .mbr-gallery-item--p4 {
   padding
 
+.btn {
+  width: 33.33%; /* 每一列有三個按鍵 */
+}
+
