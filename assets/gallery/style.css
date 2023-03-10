@@ -377,14 +377,6 @@
     margin-bottom: 0;
     list-style: none; }
 
-@media (max-width: 576px) { /* 新增的規則 */
-   .mbr-gallery-filter { /* 指定要修改的class */
-     display: flex; /* 設定display屬性為flex */
-     flex-wrap: wrap; /* 設定flex-wrap屬性為wrap */
-     justify-content: center; /* 設定justify-content屬性為center */
-   }
-}
-
 .mbr-gallery-item > div {
   position: relative; }
 
@@ -398,9 +390,51 @@
   padding: 1.5rem; }
 
 .mbr-gallery-item--p4 {
-  padding
+  padding: 2rem; }
 
-.btn {
-  width: 33.33%; /* 每一列有三個按鍵 */
-}
+.mbr-gallery-item--p5 {
+  padding: 2.5rem; }
+
+.mbr-gallery-item--p6 {
+  padding: 3rem; }
+
+.mbr-gallery .mbr-gallery-item--p4 {
+  width: 33.333%; }
+
+.mbr-gallery .mbr-gallery-item--p6, .mbr-gallery .mbr-gallery-item--p5 {
+  width: 50%; }
+
+@media (max-width: 992px) {
+  .mbr-gallery-item--p1 {
+    padding: 0.5rem; }
+
+  .mbr-gallery-item--p2 {
+    padding: 0.8rem; }
+
+  .mbr-gallery-item--p3 {
+    padding: 1rem; }
+
+  .mbr-gallery-item--p4 {
+    padding: 1.5rem; }
+
+  .mbr-gallery-item--p5 {
+    padding: 1.8rem; }
+
+  .mbr-gallery-item--p6 {
+    padding: 2rem; }
+
+  .mbr-gallery .mbr-gallery-item--p2,
+  .mbr-gallery .mbr-gallery-item--p3 {
+    width: 50%; }
+
+  .mbr-gallery .mbr-gallery-item--p6,
+  .mbr-gallery .mbr-gallery-item--p5,
+  .mbr-gallery .mbr-gallery-item--p4 {
+    width: 100%; } }
+@media (max-width: 400px) {
+  .mbr-gallery .mbr-gallery-item--p3,
+  .mbr-gallery .mbr-gallery-item--p2,
+  .mbr-gallery .mbr-gallery-item--p1 {
+    width: 100%; } }
+
 
