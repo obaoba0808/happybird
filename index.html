@@ -46,7 +46,7 @@
   <meta name="msapplication-TileImage" content="assets/images/台北舒壓.png">
   <meta name="msapplication-TileColor" content="#000000">
   <script>navigator.serviceWorker.register("sw.js")</script> 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -63,7 +63,7 @@
           "name": "快樂鳥舒壓按摩",
           "url": "https://happybird.site/about.html"
         }]
-    }
+    },
 </script>
 <script type="application/ld+json">
 { 
@@ -95,9 +95,22 @@
     "name": "聯絡我們",
     "item": "https://happybird.site/about.html"
   }]
-}
+},
 </script>
 <script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Store",
+"image":"https://happybird.site/assets/images/台北舒壓.png",      
+"name": "台北舒壓會館-快樂鳥舒壓按摩",
+"address": {
+  "@type": "PostalAddress",
+  "streetAddress": "林森北路263號",
+  "addressLocality": "Zhongshan District",
+  "addressRegion": "taipei",
+  "postalCode": "104",
+  "addressCountry": "TW"
+},
 {
 "openingHoursSpecification": {
   "@type": "OpeningHoursSpecification",
@@ -111,22 +124,11 @@
   "opens": "12:00",
   "closes": "03:00"
 }
-}
-</script>
-<script type="application/ld+json">
-{
-"address": {
-  "@type": "PostalAddress",
-  "streetAddress": "林森北路263號",
-  "addressLocality": "Zhongshan District",
-  "addressRegion": "taipei",
-  "postalCode": "104",
-  "addressCountry": "TW"
-}
-}
+},
 </script>
 <script type="application/ld+json">
   { 
+    "@context": "https://schema.org",
     "@type": "HowTo",
     "name": "舒壓按摩簡單四步驟",
     "itemListElement": "step":[
@@ -148,7 +150,7 @@
     "image": "https://happybird.site/assets/images/確認完畢.png"
   }
 ]
-}
+},
 </script>
 <script type="application/ld+json">
  {
@@ -172,6 +174,7 @@
       }]
     }
 </script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4VTJB2QBB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
