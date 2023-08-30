@@ -3,9 +3,9 @@
   "name": "快樂鳥按摩SPA",
   "icons": [
     {
-      "src": "/assets/imgs/舒壓會館.png",
+      "src": "/assets/imgs/icons/舒壓會館.png",
       "type": "image/png",
-      "sizes": "180x180",
+      "sizes": "512x512",
       "purpose": "any maskable"
     }
   ],
