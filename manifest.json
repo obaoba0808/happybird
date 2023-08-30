@@ -9,5 +9,8 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "https://happybird.site/index.html?launcher=true"
+  "start_url": "https://happybird.site/index.html?launcher=true",
+  "background_color": "#12000a",
+  "display": "standalone",
+  "theme_color": "#fa004f"
 }
