@@ -1839,6 +1839,7 @@
         </style>
     </noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
@@ -2784,7 +2785,10 @@
             <h4> © 2023<strong> <a href="https://happybird.site" target="_blank" rel="noopener">快樂鳥舒壓按摩</a> </strong></h4> 
         </div>
     </footer>
-    <!-- End Footer -->
+    <amp-install-serviceworker
+      src="https://happybird.site/serviceworker.js"
+      layout="nodisplay">
+</amp-install-serviceworker>
 
 </body>
 
